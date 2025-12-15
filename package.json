@@ -1,0 +1,17 @@
+{
+  "name": "reportes_lib",
+  "version": "1.0.0",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "aws_lib": "file:../aws_lib",
+    "common_lib": "file:../common_lib"
+  }
+}
