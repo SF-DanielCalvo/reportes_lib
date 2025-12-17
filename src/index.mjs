@@ -22,7 +22,7 @@ let LogFileName, LogGroupName, LogStreamName, sequenceToken, LogDate
 
 function Set_Local_FileName(ProjectName, SpecialName) {
     LogFileName = common.program_paths.local.Get_LogFilesPath_Project(ProjectName)
-    LogFileName += "\\" + ProjectName
+    LogFileName += common.program_paths.local.getSeparator() + ProjectName
     if (SpecialName) {
         LogFileName += '_' + SpecialName
     }
