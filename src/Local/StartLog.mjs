@@ -57,6 +57,11 @@ async function Call_Start_Logs_Local(ProjectName) {
         const BasePath = src.BasePath
         const ProjectPath = src.Get_BasePath_Project(ProjectName)
 
+        console.log(`BasePath: ${BasePath}`)
+        console.log(`ProjectPath: ${ProjectPath}`)
+        console.log(`LogsPath: ${LogsPath}`)
+        console.log(`TempPath: ${TempPath}`)
+        
         // Step 2: Check if directories exist
         const BasePath_Exists = await common.fs.directory.DirectoryExists(BasePath)
         if (BasePath_Exists.statusCode !== 200) {
