@@ -11,7 +11,7 @@
   "type": "module",
   "description": "",
   "dependencies": {
-    "aws_lib": "git+https://github.com/SF-DanielCalvo/aws_lib.git",
-    "common_lib": "git+https://github.com/SF-DanielCalvo/common_lib.git"
+    "aws_lib": "git+https://github.com/SF-DanielCalvo/aws_lib.git#v1.0.0.0.2026.04.01",
+    "common_lib": "git+https://github.com/SF-DanielCalvo/common_lib.git#v1.0.0.0.2026.04.01"
   }
 }
